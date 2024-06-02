@@ -61,6 +61,7 @@
   "statuscol.nvim": { "branch": "main", "commit": "483b9a596dfd63d541db1aa51ee6ee9a1441c4cc" },
   "structlog.nvim": { "branch": "main", "commit": "45b26a2b1036bb93c0e83f4225e85ab3cee8f476" },
   "surround-ui.nvim": { "branch": "main", "commit": "65c25088e8dbd1e098245de007498b93c694afb0" },
+  "telescope-file-browser.nvim": { "branch": "master", "commit": "1280db1f835bd6b73a485d6f1149e02df67533c4" },
   "telescope.nvim": { "branch": "master", "commit": "6312868392331c9c0f22725041f1ec2bef57c751" },
   "themery.nvim": { "branch": "main", "commit": "1005a58801276d29c4b1e11244cf7631250f9143" },
   "trouble.nvim": { "branch": "main", "commit": "250ea79c810a3e5fff846c788792441f1c795c92" },
