@@ -3,7 +3,7 @@ return {
     requires = { 'rcarriga/nvim-notify' },
     config = function()
         require('lsp-notify').setup {
-            notify = require('notify'),
+            --notify = require('notify'),
         }
     end,
     dependencies = { 'rcarriga/nvim-notify' }
