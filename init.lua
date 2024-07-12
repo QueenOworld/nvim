@@ -273,6 +273,7 @@ require("lazy").setup({
     },
 
 })
+
 vim.clipboard = unnamedplus
 vim.cmd("nnoremap <leader>sv :source $MYVIMRC<CR>")
 vim.cmd("nnoremap <C-z> :undo<CR>")
@@ -281,5 +282,6 @@ vim.cmd("nnoremap <A-d> :Lspsaga term_toggle<CR>")
 vim.cmd("nnoremap K :Lspsaga hover_doc<CR>")
 vim.cmd("nnoremap <C-f> :Format<CR>")
 vim.cmd("nnoremap <C-s> :write<CR>")
+vim.cmd("nnoremap <leader>` :ToggleTerm<CR>")
 -- vim.cmd("nnoremap <leader>bw :Telescope fd<CR>")
 vim.loader.enable()
