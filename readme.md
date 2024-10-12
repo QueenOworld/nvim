@@ -1,5 +1,5 @@
 # Installation
-git clone https://github.com/QueenOworld/nvim.git ~/.config/nvim/
+`git clone https://github.com/QueenOworld/nvim.git ~/.config/nvim/`
 
 ## Adding support for some keybindings to your console
 Add these to your input settings in your terminal emulator:
