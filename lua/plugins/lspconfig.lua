@@ -53,6 +53,7 @@ return {
             lsp.dockerls.setup {}
             lsp.docker_compose_language_service.setup {}
             lsp.yamlls.setup {}
+            lsp.arduino_language_server.setup {}
         end
     }
 }

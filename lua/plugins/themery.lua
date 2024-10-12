@@ -14,9 +14,8 @@ return {
                 'limestone', 'lunaperche', 'mariana', 'mariana_lighter', 'middlenight_blue', 'monokai', 'monokai_lighter',
                 'moonlight', 'morning', 'murphy', 'oceanic', 'pablo', 'palenight', 'peachpuff', 'quiet', 'ron', 'shine',
                 'slate', 'starry', 'torte', 'ukraine', 'zellner'
-            },                                                -- Your list of installed colorschemes
-            themeConfigFile = "~/.config/nvim/lua/theme.lua", -- Described below
-            livePreview = true,                               -- Apply theme while browsing. Default to true.
+            },
+            livePreview = true,
         })
         vim.cmd("colorscheme catppuccin-mocha")
     end
