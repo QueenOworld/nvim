@@ -10,7 +10,6 @@ return {
             lsp.lua_ls.setup {}
             lsp.csharp_ls.setup {}
             lsp.pyright.setup {}
-            lsp.tsserver.setup {}
             lsp.html.setup {
                 capabilities = capabilities,
             }
@@ -49,7 +48,7 @@ return {
             lsp.docker_compose_language_service.setup {}
             lsp.glsl_analyzer.setup {}
             lsp.jsonls.setup {}
-            lsp.tsserver.setup {}
+            lsp.ts_ls.setup {}
             lsp.dockerls.setup {}
             lsp.docker_compose_language_service.setup {}
             lsp.yamlls.setup {}
