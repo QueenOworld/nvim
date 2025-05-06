@@ -9,6 +9,7 @@ return {
             lsp.zls.setup {}
             lsp.lua_ls.setup {}
             lsp.csharp_ls.setup {}
+            lsp.omnisharp.setup {}
             lsp.pyright.setup {}
             lsp.html.setup {
                 capabilities = capabilities,
@@ -16,8 +17,13 @@ return {
             lsp.cssls.setup {
                 capabilities = capabilities,
             }
+            lsp.bashls.setup {}
+            lsp.cmake.setup {}
+            lsp.neocmake.setup {}
+            lsp.cssls.setup {}
             lsp.cssmodules_ls.setup {}
             lsp.css_variables.setup {}
+            lsp.docker_compose_language_service.setup {}
             lsp.astro.setup {}
             lsp.lua_ls.setup {}
             lsp.clangd.setup {
@@ -45,14 +51,12 @@ return {
             lsp.glslls.setup {}
             lsp.asm_lsp.setup {}
             lsp.dockerls.setup {}
-            lsp.docker_compose_language_service.setup {}
             lsp.glsl_analyzer.setup {}
             lsp.jsonls.setup {}
             lsp.ts_ls.setup {}
-            lsp.dockerls.setup {}
-            lsp.docker_compose_language_service.setup {}
             lsp.yamlls.setup {}
             lsp.arduino_language_server.setup {}
+            lsp.biome.setup {}
         end
     }
 }

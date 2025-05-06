@@ -6,7 +6,7 @@ return {
             {
                 {
                     name = "meow",
-                    colorscheme = "catppuccin",
+                    colorscheme = "catppuccin-mocha",
                 },
                 'blue', 'catppuccin-frappe', 'catppuccin-latte', 'catppuccin-macchiato', 'catppuccin-mocha', 'darkblue',
                 'darker', 'darksolar', 'deepocean', 'default', 'delek', 'desert', 'dracula', 'dracula_blood',

@@ -24,5 +24,5 @@ return {
         -- you need to call load_extension, somewhere after setup function:
         require("telescope").load_extension "file_browser"
     end,
-    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons", "MunifTanjim/nui.nvim" }
 }

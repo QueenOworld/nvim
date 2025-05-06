@@ -25,7 +25,8 @@ return {
                     { name = 'buffer' },
                     { name = 'calc' },
                     { name = 'zsh' },
-                    { name = 'path' }
+                    { name = 'path' },
+                    { name = 'lazydev', group_index = 0 }
                 }),
                 sorting = {
                     comparators = {
