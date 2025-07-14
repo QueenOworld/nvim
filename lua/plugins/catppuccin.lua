@@ -1,6 +1,7 @@
 return {
     "catppuccin/nvim",
     name = "catppuccin",
+    lazy = false,
     priority = 1000,
     config = function()
         require("catppuccin").setup({
@@ -8,6 +9,7 @@ return {
                 cmp = true,
                 dashboard = true,
                 gitsigns = true,
+                fidget = true,
                 nvimtree = true,
                 treesitter = true,
                 notify = true,
@@ -32,6 +34,20 @@ return {
                 }
             },
             color_overrides = {
+                macchiato = {
+                    base = "#291e2e",
+                    crust = "#18111b",
+                    mantle = "#211825",
+                    surface0 = "#3e3144",
+                    surface1 = "#52455a",
+                    surface2 = "#665870",
+                    overlay0 = "#7b6c86",
+                    overlay1 = "#8f7f9c",
+                    overlay2 = "#a393b2",
+                    subtext0 = "#b7a6c8",
+                    subtext1 = "#ccbade",
+                    text = "#e0cdf4"
+                },
                 mocha = {
                     base = "#0d0909",
                     crust = "#1b1111",
