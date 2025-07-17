@@ -25,7 +25,9 @@ return { -- Autoformat
             css = { { "prettierd", "prettier" } },
             html = { { "prettierd", "prettier" } }
         },
-        formatters = {}
+        formatters = {
+            injected = { options = { ignore_errors = true } },
+        }
     },
     config = function()
         vim.api.nvim_create_user_command("Format", function(args)
