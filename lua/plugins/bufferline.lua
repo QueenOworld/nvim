@@ -5,7 +5,7 @@ return {
         vim.opt.termguicolors = true
         if (vim.g.colors_name or ""):find("catppuccin") then
             require("bufferline").setup {
-                highlights = require("catppuccin.groups.integrations.bufferline").get(),
+                highlights = require("catppuccin.groups.integrations.bufferline").get_theme(),
                 options = {
                     separator_style = 'slope',
                     diagnostics = "nvim_lsp",
